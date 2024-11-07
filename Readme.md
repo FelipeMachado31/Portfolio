@@ -2,7 +2,6 @@ Portfólio de Felipe Machado
 
 Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para apresentar meus trabalhos, habilidades e experiências na área de desenvolvimento de sistemas.
 
-Sobre Mim
 Olá! Meu nome é Felipe Machado, sou estudante de Sistemas de Informação e desenvolvedor com experiência em projetos acadêmicos e pessoais. Tenho paixão por tecnologia, desenvolvimento web e sempre estou em busca de novos aprendizados e desafios.
 
 Tecnologias Utilizadas:
