@@ -56,4 +56,10 @@ body {
     animation-range: entry 0% cover 30%;
 }
 
+#portfolio{
+    animation: anima_scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
   
