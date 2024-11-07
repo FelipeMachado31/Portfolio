@@ -1,0 +1,59 @@
+body {
+    font-family: 'kanit'; 
+    background-color: rgba(0, 0, 0,0.96);
+    color: white; 
+}
+
+.glow-effect {
+    box-shadow: 
+      0 0 20px 15px rgba(87, 68, 154, 0.2),
+      0 0 40px 30px rgba(87, 68, 154, 0.1),  
+      0 0 60px 45px rgba(87, 68, 154, 0.0); 
+  }
+
+.typing-container {
+    position:relative; 
+    display: inline-flex; 
+    align-items: baseline; 
+}
+
+#typing-text {
+    overflow: hidden; 
+    line-height: 1.5; 
+    background: linear-gradient(to right, rgb(87, 68, 154), rgb(217, 215, 239));
+    background-clip: text;
+    color: transparent;
+}
+
+.cursor {
+    width: 2px; 
+    height: 1.5em; 
+    background-color: white; 
+    animation: blink 0.7s step-end infinite; 
+    margin-left: 2px; 
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0; 
+    }
+}
+
+@keyframes anima_scroll{
+    0%{
+        opacity: 0;
+        transform: translate(-150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+#about{
+    animation: anima_scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+  
