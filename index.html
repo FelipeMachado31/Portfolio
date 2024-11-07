@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" type="text/css" href="model/style.css">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./src/icons/logo.png" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+    <nav class="w-full p-6 flex justify-center md:justify-around items-center sticky top-0 z-50">
+        <a href="https://www.linkedin.com/in/felipe-machado-3317672b7/" target="_blank" rel="noopener noreferrer" class="hidden md:block">
+          <img src="src/icons/linkedin.png" class="w-10 h-10">
+        </a>
+        <ul class="flex space-x-5 items-center">
+          <li><a href="#home" class="text-base md:text-lg text-white hover:text-[#d9d7ef] transition-colors">Home</a></li>
+          <li><a href="#about" class="text-base md:text-lg text-white  hover:text-[#d9d7ef] transition-colors">About</a></li>
+          <li><a href="#portfolio" class="text-base md:text-lg text-white hover:text-[#d9d7ef] transition-colors">Portfolio</a></li>
+          <li><a href="#blog" class="text-base md:text-lg text-white  hover:text-[#d9d7ef] transition-colors">Services</a></li>
+        </ul>
+        <a href="https://www.github.com/FelipeMachado31" target="_blank" rel="noopener noreferrer" class="hidden md:block">
+          <img src="src/icons/github.png" class="w-10 h-10">
+        </a>
+    </nav>
+  <!-- FIM NAVBAR -->
+
+  <!-- HOME -->
+    <div id="home" class="min-h-screen flex justify-center items-center max-h-screen ">
+      <div class="container mx-auto px-4 md:px-0 max-w-7xl">
+        <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-28 relative">
+            <div class="text-center ">
+              <h1 class=" text-white text-base md:text-lg ">Hello World, I'm</h1>
+              <h2 class=" text-white text-4xl md:text-6xl font-extrabold mt-2">Felipe Machado</h2>
+                <div class="typing-container">
+                  <p id="typing-text" class="text-2xl md:text-3xl mt-2"></p>
+                  <div class="cursor"></div>
+                </div>
+              <p id="white-emoji"class="text-white mt-2 text-base md:text-xl">Bem vindo ao meu Portfólio. 👋</p>
+            </div>
+        </div>
+      </div>
+      <img src="src/icons/seta.png" class=" absolute md:block bottom-2 animate-bounce w-6 h-6">
+    </div>
+  <!-- FIM HOME -->
+
+  <!-- ABOUT ME -->
+  <div id="about" class="min-h-screen py-20">
+      <div class="max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-4xl mx-auto bg-zinc-900 rounded-3xl p-6 overflow-hidden">
+        <div class="flex flex-col md:flex-row items-center md:space-x-12"> 
+            <div class="rounded-full border-4 border-[#57449a] p-2 glow-effect mb-6 md:mb-0 w-48 h-48 md:w-52 md:h-52 flex-shrink-0"> 
+                <img src="src/eu.jpg" alt="Profile" class="rounded-full w-full h-full object-cover">
+            </div>
+            <div class="text-center lg:text-left">
+                <h2 class="text-white text-xl font-bold mb-4">Olá, meu nome é Felipe da Silva Machado</h2>
+                <p class="text-white text-base mb-4 px-4 md:px-0">Tenho 19 anos e sou um entusiasta da tecnologia, sempre em busca de oportunidades para demonstrar e aplicar meus conhecimentos. Sou formado em Desenvolvimento de Sistemas pela ETEC João Gomes de Araújo e atualmente estou cursando Sistemas de Informação na UNITAU.</p>
+            </div>
+        </div>
+      </div>
+  <!-- FIM ABOUT ME -->
+
+  <!-- SKILLS -->
+    <div class="container max-w-xs md:max-w-xl lg:max-w-4xl mx-auto mt-10 ">
+      <h2 class="text-white font-bold text-2xl p-3">Skills </h2>
+      <div class="mb-3 grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/html.png" alt="HTML" class="w-6 h-6 mr-2">
+                      <span>HTML</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/css.png" alt="CSS" class="w-6 h-6 mr-2">
+                      <span>CSS</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/php.png" alt="PHP" class="w-6 h-6 mr-2">
+                      <span>PHP</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Intermediário</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/js.png" alt="Javascript" class="w-6 h-6 mr-2">
+                      <span>Javascript</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Intermediário</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/vue.png" alt="VueJS" class="w-6 h-6 mr-2">
+                      <span>VueJS</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Básico</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/nodejs.png" alt="NodeJS" class="w-6 h-6 mr-2">
+                      <span>NodeJS</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Básico</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/tailwind.png" alt="Tailwind" class="w-6 h-6 mr-2">
+                      <span>Tailwind</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/bootstrap.png" alt="Bootstrap" class="w-6 h-6 mr-2">
+                      <span>Bootstrap</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+    </div>
+  </div>
+  
+  <div class="container max-w-xs md:max-w-xl lg:max-w-4xl mx-auto mt-10 ">
+      <h2 class="text-white font-bold text-2xl p-3">Tools </h2>
+      <div class="mb-3 grid grid-cols-2 lg:grid-cols-4 gap-4">
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/github.png" alt="HTML" class="w-6 h-6 mr-2">
+                      <span>GITHUB</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Intermediário</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/mysql.png" alt="CSS" class="w-6 h-6 mr-2">
+                      <span>MYSQL</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Intermediário</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/postgre.png" alt="PHP" class="w-6 h-6 mr-2">
+                      <span>POSTGRE</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Básico</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/vercel.png" alt="PHP" class="w-6 h-6 mr-2">
+                      <span>VERCEL</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Básico</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/photoshop.png" alt="PHP" class="w-6 h-6 mr-2">
+                      <span>PHOTOSHOP</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+  
+              <div class="bg-zinc-900 p-4 rounded-lg relative group">
+                  <div class="flex items-center">
+                      <img src="src/icons/figma.png" alt="PHP" class="w-6 h-6 mr-2">
+                      <span>FIGMA</span>
+                  </div>
+                  <span class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity">Avançado</span>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- FIM SKILLS -->
+
+
+<!-- PORTFOLIO -->
+  <div id="portfolio" class="h-screen py-10 ">
+    <div class="max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-4xl mx-auto rounded-3xl p-6 overflow-hidden">
+    <h1 class="text-white text-xl md:text-3xl text-center mb-8">Explore os projetos em que trabalhei até agora</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+      
+      <div class="bg-zinc-900 p-4 rounded-lg shadow-md">
+        <img src="src/portfolio.png" alt="Project Image" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-white text-center text-lg mt-4">Meu site de Portfólio Profissional</h2>
+        <p class="text-gray-400 text-center">Meu site de portfolio pessoal, onde utilizei meus conhecimentos de Front-End</p>
+        <div class="flex justify-center mt-4">
+          <span class="text-xs text-gray-400 mr-2">Tailwindcss</span>
+          <span class="text-xs text-gray-400 mr-2">Javascript</span>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900 p-4 rounded-lg shadow-md">
+        <img src="src/raimundopasteis.png" alt="Project Image" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-white text-center text-lg mt-4">Cardápio Digital para Pastelaria</h2>
+        <p class="text-center text-gray-400">Cardápio Digital inovador para uma pastelaria, focado em facilitar a navegação e melhorar a experiência do cliente.</p>
+        <div class="flex justify-center mt-4">
+          <span class="text-xs text-gray-400 mr-2">Javascript</span>
+          <span class="text-xs text-gray-400 mr-2">Php</span>
+          <span class="text-xs text-gray-400 mr-2">MySql</span>
+          <span class="text-xs text-gray-400">Tailwindcss</span>
+        </div>
+      </div> 
+
+      <div class="bg-zinc-900 p-4 rounded-lg shadow-md">
+        <img src="src/mentorweb.png" alt="Project Image" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-white text-center text-lg mt-4">Réplica do Site da Faculdade</h2>
+        <p class="text-center text-gray-400">Desenvolvida para estudo de front-end e back-end, com foco em responsividade e integração de banco de dados.</p>
+        <div class="flex justify-center mt-4">
+          <span class="text-xs text-gray-400 mr-2">Bootstrap</span>
+          <span class="text-xs text-gray-400 mr-2">Php</span>
+          <span class="text-xs text-gray-400">MySql</span>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900 p-4 rounded-lg shadow-md">
+        <img src="src/Dashboard.png" alt="Project Image" class="w-full h-40 object-cover rounded-t-lg">
+        <h2 class="text-white text-center text-lg mt-4">Dashboard para Estudo</h2>
+        <p class="text-center text-gray-400">Criado para estudo de grid, responsividade e utilização do Google Charts</p>
+        <div class="flex justify-center mt-4">
+          <span class="text-xs text-gray-400 mr-2">Javascript</span>
+          <span class="text-xs text-gray-400 mr-2">Bootstrap</span>
+          <span class="text-xs text-gray-400 mr-2">MySql</span>
+          <span class="text-xs text-gray-400">Php</span>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- FIM PORTFOLIO -->
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  <script src="model/script.js" defer></script>
+</body>
+</html>
