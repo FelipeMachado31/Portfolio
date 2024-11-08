@@ -39,27 +39,21 @@ body {
     }
 }
 
-@keyframes anima_scroll{
-    0%{
+@keyframes anima_scroll {
+    0% {
         opacity: 0;
-        transform: translate(-150px);
     }
-    100%{
+    100% {
         opacity: 1;
-        transform: translate(0px);
     }
 }
 
-#about{
-    animation: anima_scroll linear;
-    animation-timeline: view();
+
+#about, #skills, #portfolio, #services {
+    animation: anima_scroll 1s ease-out; 
+    animation-timeline: view(); 
     animation-range: entry 0% cover 30%;
 }
 
-#portfolio{
-    animation: anima_scroll linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-}
 
   
