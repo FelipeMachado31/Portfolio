@@ -8,7 +8,6 @@ Tecnologias Utilizadas:
 
 - HTML5 e CSS3
 - JavaScript
-- PHP
 - Tailwind CSS para estilização
 - XAMPP como servidor local
 
